@@ -3,19 +3,8 @@ title: "LMU-Simulations Course"
 author: "John Sebastian"
 #date: "10/03/2021"
 output:
-  html_document: 
-    variant: markdown_strict+backtick_code_blocks+autolink_bare_uris
-    theme: paper
-    highlight: pygments
-    toc_depth: 5
-    fig_height: 10
-    fig_caption: yes
-    toc: yes
-    toc_float: yes
-    number_sections: true
-    keep_md: yes
-  #md_document:
-   # variant: markdown_github
+  md_document:
+    variant: markdown_github
 summary: Coursework and Stuff
 ---
 [Course Page on Coursera](https://www.coursera.org/learn/computers-waves-simulations)
