@@ -1,7 +1,7 @@
 ---
-title: "LMU-Simulations COurse"
+title: "LMU-Simulations Course"
 author: "John Sebastian"
-date: "10/03/2021"
+#date: "10/03/2021"
 output:
   html_document: 
     variant: markdown_strict+backtick_code_blocks+autolink_bare_uris
@@ -11,14 +11,20 @@ output:
     fig_height: 10
     fig_caption: yes
     toc: yes
+    toc_float: yes
+    number_sections: true
     keep_md: yes
   #md_document:
    # variant: markdown_github
-summary: Coursework and  Stuff
+summary: Coursework and Stuff
 ---
+[Course Page on Coursera](https://www.coursera.org/learn/computers-waves-simulations)
 
-# 1 Finite Differences Method
+# Finite Differences Method
 ## Example Problem 1
+
+$Problem \ 1$ - [Python Code Here](https://john-seb.github.io/lmu-simulations/exp1.html)
+
 Evaluating the derivative of a simple function using finite differences (2 points) and computing the error against the analytical solution
 
 ```python
